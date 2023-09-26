@@ -2,6 +2,9 @@ body {
 background-image: url('home.jpg');
 background-size: cover;
 background-repeat: no-repeat;
+color: rgb(125, 128, 107); 
+
+
 
 }
 nav {
@@ -24,7 +27,7 @@ a {
     position: relative;
     text-decoration: none;
     font-family: 'Poppins' , sans-serif;
-    color: rgb(108, 133, 155);
+    color: rgb(0, 0, 0);
     font-size: 18px;
     letter-spacing: 0.5px;
     padding: 0 10px;
@@ -33,7 +36,7 @@ a {
 a::after{
     content: "";
     position: absolute;
-    background-color:#443e05 ;
+    background-color:#9ca158 ;
     height: 3px;
     width: 0;
     left: 0;
@@ -42,7 +45,7 @@ a::after{
 
 }
 a:hover{
-    color: #333;
+    color: #9ca158;
 }
 a:hover::after{
     width: 100%;
@@ -53,6 +56,7 @@ a:hover::after{
     height: 100vh; /* Preenche a altura da janela de visualização */
     background-color: #000000; /* Cor de fundo preta (opcional) */
     color: #fff; /* Cor do texto (opcional) */
+
 }
 
 .container {
@@ -77,7 +81,12 @@ a:hover::after{
     margin-left: 60px;
     font-family: 'Kalam', cursive;
     font-family: 'Poppins', sans-serif;
+    text-shadow: rgb(179, 176, 154);
 
+}
+.texto{
+
+    text-shadow:  rgb(208, 205, 180);
 }
 
 .header {
@@ -108,11 +117,104 @@ a:hover::after{
 
 .menu a {
     text-decoration: none; /* Remover sublinhado dos links */
-    color: white; /* Cor dos links na barra de navegação */
+    color: rgb(119, 107, 17); /* Cor dos links na barra de navegação */
+    text-shadow:  #443e05;
 }
 
 .card{
     margin-top: 20px; /* Mova o card para baixo em 20 pixels */
-    
-      
+    }
+
+        /* Estilos para personalizar o slider */
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+        }
+
+        .slide-text {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 20px;
+        }
+
+        .containerlugares {
+            display: flex;
+            flex-direction: column; /* Para centralizar verticalmente */
+            align-items: center;
+            justify-content: center; /* Para centralizar horizontalmente */
+            padding: 50px;
+            color: rgb(156, 151, 107);
+            box-sizing: border-box;
+            height: 70vh;
+            margin-top: 200px;
+        }
+        .carousel-inner {
+            max-width: 95%; /* Defina a largura máxima do slide */
+            max-height: 500px; /* Defina a altura máxima do slide */
+            margin: 140px auto; /* Isso centralizará o carrossel horizontalmente na página e definirá a margem superior */
+            align-items: center;
+        }
+        .carousel-item img {
+            width: 90%; /* Defina a largura desejada para as imagens */
+            height: 350px; /* Defina a altura desejada para as imagens */
+            object-fit: cover; /* Mantenha a proporção de aspecto e preencha todo o espaço disponível */
+            margin-left: 60px;  
+      }
+
+        .span-control{
+            color: #443e0500;
+
+      }
+        .carousel-control-next-icon {
+            margin-left: 60px;
+          
+
+        }
+        .carousel-control-prev-icon{
+            margin-right: 90px;
+            
+        } 
+        
+        .col-md-6 h3 {
+
+            font-family: 'Kalam', cursive;
+            font-family: 'Poppins', sans-serif;
+            margin-left: 60px;
+            color: #000000;
+            text-shadow: #fff;
+        }
+
+        .col-md-6 p {
+
+            margin-left: 60px;
+            color: white;
+            font-size: 20px;
+            text-shadow: #443e05;
+        }
+       
+        .containersobre {
+            text-align: center; /* Isso alinha horizontalmente o conteúdo dentro do container */
+        }
+        
+        .imagem-centralizada {
+            display: block; /* Isso torna a imagem um elemento de bloco */
+            margin: 100px auto 0; /* Isso centraliza a imagem horizontalmente */
+            height: 50%;
+            width: 70%;
+        }
+        body.sobre  {
+            background-image: url('bandeira.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: rgb(8, 8, 7); 
+            
+         }
+
+         /* Estilos para o container com a classe "containersobre" */
+.containersobre {
+    text-align: center; /* Alinhar conteúdo no centro horizontalmente */
+    padding: 20px; /* Espaçamento interno para maior clareza */
 }
+
+
+    
