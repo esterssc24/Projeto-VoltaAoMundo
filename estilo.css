@@ -24,7 +24,7 @@ a {
     position: relative;
     text-decoration: none;
     font-family: 'Poppins' , sans-serif;
-    color: aliceblue;
+    color: rgb(108, 133, 155);
     font-size: 18px;
     letter-spacing: 0.5px;
     padding: 0 10px;
@@ -33,7 +33,7 @@ a {
 a::after{
     content: "";
     position: absolute;
-    background-color: #EAB2A0 ;
+    background-color:#443e05 ;
     height: 3px;
     width: 0;
     left: 0;
@@ -61,17 +61,19 @@ a:hover::after{
     align-items: center;
     padding: 20px;
     
-    color: white;
+    color: rgb(148, 134, 30);
     
     box-sizing: border-box;
     height: 70vh; /* Define a altura como 100% da altura da janela */
 }
 .container h1 {
 
-    font-size: 100px; /* Define o tamanho da fonte do texto */
-    color: #ece8e8; /* Define a cor do texto */
-    text-align: right;
-    margin-right: 10px;
+    font-size: 80px; /* Define o tamanho da fonte do texto */
+    color: #443e05; /* Define a cor do texto */
+    text-align: center;
+    
+    margin-right: 20px;
+    margin-left: 60px;
     font-family: 'Kalam', cursive;
     font-family: 'Poppins', sans-serif;
 
