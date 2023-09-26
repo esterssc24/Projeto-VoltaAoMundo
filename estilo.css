@@ -1,0 +1,109 @@
+body {
+background-image: url('home.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+nav {
+    height: 90px;
+    width: 70vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    top: 0;
+    position: fixed;
+    left: 0; /* Deixe o valor de 'left' como 0 */
+    right: 0; /* Adicione 'right' como 0 para estender o menu até a borda direita */
+    text-align: center;
+}
+
+
+a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+a::after{
+    content: "";
+    position: absolute;
+    background-color: #EAB2A0 ;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+
+}
+a:hover{
+    color: #333;
+}
+a:hover::after{
+    width: 100%;
+
+}
+.conteudo-home {
+    width: 100%; /* Preenche a largura da janela de visualização */
+    height: 100vh; /* Preenche a altura da janela de visualização */
+    background-color: #000000; /* Cor de fundo preta (opcional) */
+    color: #fff; /* Cor do texto (opcional) */
+}
+
+.container {
+    display: flex;
+
+    align-items: center;
+    padding: 20px;
+    
+    color: white;
+    
+    box-sizing: border-box;
+    height: 70vh; /* Define a altura como 100% da altura da janela */
+}
+.container h1 {
+
+    font-size: 100px; /* Define o tamanho da fonte do texto */
+    color: #ece8e8; /* Define a cor do texto */
+    text-align: right;
+    margin-right: 10px;
+    font-family: 'Kalam', cursive;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    font-size: 24px;
+}
+
+/* Estilo para telas menores (dispositivos móveis) */
+@media (max-width: 768px) {
+    .header {
+        font-size: 18px;
+    }
+}
+
+.menu {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.menu ul {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline; /* Exibir itens de navegação em linha */
+    margin-right: 20px; /* Espaçamento entre os itens de navegação */
+}
+
+.menu a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: white; /* Cor dos links na barra de navegação */
+}
