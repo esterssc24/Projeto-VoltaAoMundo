@@ -65,13 +65,14 @@ a:hover::after{
     
     box-sizing: border-box;
     height: 70vh; /* Define a altura como 100% da altura da janela */
+    margin-top: 50px;
 }
 .container h1 {
 
     font-size: 80px; /* Define o tamanho da fonte do texto */
     color: #443e05; /* Define a cor do texto */
     text-align: center;
-    
+    margin-top: 180px;
     margin-right: 20px;
     margin-left: 60px;
     font-family: 'Kalam', cursive;
@@ -108,4 +109,10 @@ a:hover::after{
 .menu a {
     text-decoration: none; /* Remover sublinhado dos links */
     color: white; /* Cor dos links na barra de navegação */
+}
+
+.card{
+    margin-top: 20px; /* Mova o card para baixo em 20 pixels */
+    
+      
 }
