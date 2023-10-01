@@ -1,5 +1,5 @@
 body {
-background-image: url('home.jpg');
+background-image: url('img/home.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 color: rgb(125, 128, 107); 
@@ -7,6 +7,7 @@ color: rgb(125, 128, 107);
 
 
 }
+
 nav {
     height: 90px;
     width: 70vw;
@@ -121,8 +122,9 @@ a:hover::after{
     text-shadow:  #443e05;
 }
 
-.card{
-    margin-top: 20px; /* Mova o card para baixo em 20 pixels */
+    .card-body {
+        height: 200px; /* Defina a altura desejada para os cards aqui */
+        overflow: hidden; /* Para garantir que o conteúdo não transborde caso seja muito longo */
     }
 
         /* Estilos para personalizar o slider */
@@ -203,7 +205,7 @@ a:hover::after{
             width: 70%;
         }
         body.sobre  {
-            background-image: url('bandeira.jpg');
+            background-image: url('img/bandeira.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             color: rgb(8, 8, 7); 
