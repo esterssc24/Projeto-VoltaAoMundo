@@ -8,6 +8,9 @@ color: rgb(125, 128, 107);
 
 }
 
+
+
+
 nav {
     height: 90px;
     width: 70vw;
@@ -18,8 +21,8 @@ nav {
     margin: auto;
     top: 0;
     position: fixed;
-    left: 0; /* Deixe o valor de 'left' como 0 */
-    right: 0; /* Adicione 'right' como 0 para estender o menu até a borda direita */
+    left: 0; 
+    right: 0; 
     text-align: center;
 }
 
@@ -53,10 +56,10 @@ a:hover::after{
 
 }
 .conteudo-home {
-    width: 100%; /* Preenche a largura da janela de visualização */
-    height: 100vh; /* Preenche a altura da janela de visualização */
-    background-color: #000000; /* Cor de fundo preta (opcional) */
-    color: #fff; /* Cor do texto (opcional) */
+    width: 100%; 
+    height: 100vh; 
+    background-color: #000000; 
+    color: #fff;
 
 }
 
@@ -69,13 +72,33 @@ a:hover::after{
     color: rgb(148, 134, 30);
     
     box-sizing: border-box;
-    height: 70vh; /* Define a altura como 100% da altura da janela */
+    height: 70vh; 
     margin-top: 50px;
 }
+
+.containersobre {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-size: 30px;
+    color: rgb(59, 66, 22);
+    font-family: 'Kalam', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(238, 223, 223, 0.5);
+}
+
+
 .container h1 {
 
-    font-size: 80px; /* Define o tamanho da fonte do texto */
-    color: #443e05; /* Define a cor do texto */
+    font-size: 80px; 
     text-align: center;
     margin-top: 180px;
     margin-right: 20px;
@@ -94,7 +117,7 @@ a:hover::after{
     font-size: 24px;
 }
 
-/* Estilo para telas menores (dispositivos móveis) */
+
 @media (max-width: 768px) {
     .header {
         font-size: 18px;
@@ -102,32 +125,32 @@ a:hover::after{
 }
 
 .menu {
-    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; 
 }
 
 .menu ul {
-    list-style: none; /* Remover marcadores de lista */
+    list-style: none; 
     padding: 0;
     margin: 0;
 }
 
 .menu li {
-    display: inline; /* Exibir itens de navegação em linha */
-    margin-right: 20px; /* Espaçamento entre os itens de navegação */
+    display: inline; 
+    margin-right: 20px; 
 }
 
 .menu a {
-    text-decoration: none; /* Remover sublinhado dos links */
-    color: rgb(119, 107, 17); /* Cor dos links na barra de navegação */
+    text-decoration: none; 
+    color: rgb(119, 107, 17); 
     text-shadow:  #443e05;
 }
 
     .card-body {
-        height: 200px; /* Defina a altura desejada para os cards aqui */
-        overflow: hidden; /* Para garantir que o conteúdo não transborde caso seja muito longo */
+        height: 200px; 
+        overflow: hidden; 
     }
 
-        /* Estilos para personalizar o slider */
+      
         .carousel-inner img {
             width: 100%;
             height: auto;
@@ -141,9 +164,9 @@ a:hover::after{
 
         .containerlugares {
             display: flex;
-            flex-direction: column; /* Para centralizar verticalmente */
+            flex-direction: column; 
             align-items: center;
-            justify-content: center; /* Para centralizar horizontalmente */
+            justify-content: center; 
             padding: 50px;
             color: rgb(156, 151, 107);
             box-sizing: border-box;
@@ -151,15 +174,15 @@ a:hover::after{
             margin-top: 200px;
         }
         .carousel-inner {
-            max-width: 95%; /* Defina a largura máxima do slide */
-            max-height: 500px; /* Defina a altura máxima do slide */
-            margin: 140px auto; /* Isso centralizará o carrossel horizontalmente na página e definirá a margem superior */
+            max-width: 95%; 
+            max-height: 500px; 
+            margin: 140px auto; 
             align-items: center;
         }
         .carousel-item img {
-            width: 90%; /* Defina a largura desejada para as imagens */
-            height: 350px; /* Defina a altura desejada para as imagens */
-            object-fit: cover; /* Mantenha a proporção de aspecto e preencha todo o espaço disponível */
+            width: 90%; 
+            height: 350px; 
+            object-fit: cover; 
             margin-left: 60px;  
       }
 
@@ -195,12 +218,12 @@ a:hover::after{
         }
        
         .containersobre {
-            text-align: center; /* Isso alinha horizontalmente o conteúdo dentro do container */
+            text-align: center; 
         }
         
         .imagem-centralizada {
-            display: block; /* Isso torna a imagem um elemento de bloco */
-            margin: 100px auto 0; /* Isso centraliza a imagem horizontalmente */
+            display: block; 
+            margin: 100px auto 0; 
             height: 50%;
             width: 70%;
         }
@@ -212,10 +235,10 @@ a:hover::after{
             
          }
 
-         /* Estilos para o container com a classe "containersobre" */
+        
 .containersobre {
-    text-align: center; /* Alinhar conteúdo no centro horizontalmente */
-    padding: 20px; /* Espaçamento interno para maior clareza */
+    text-align: center; 
+    padding: 20px; 
 }
 
 
